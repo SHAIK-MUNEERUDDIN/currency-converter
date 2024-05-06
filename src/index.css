@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+header::before {
+  content: "";
+  background: url(./src/assets/bg4.jpg);
+  background-color: #414141;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: cover;
+  width: 100%;
+  top: 0px;
+  height: calc(80vh - 100px);
+  left: 0;
+  position: absolute;
+  z-index: -99;
+}
+
+li a:hover {
+  color: rgb(37 99 235);
+  cursor: pointer;
+}
+
+li button {
+  background-color: rgb(37 99 235);
+}
+
+li button:hover {
+  background-color: rgb(63, 112, 216);
+}
