@@ -12,7 +12,7 @@
 
 header::before {
   content: "";
-  background: url(./src/assets/bg4.jpg);
+  background: url(../public/assets/bg4.jpg);
   background-color: #414141;
   background-repeat: no-repeat;
   background-position: 0 50%;

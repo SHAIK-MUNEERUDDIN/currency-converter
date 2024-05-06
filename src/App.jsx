@@ -3,6 +3,7 @@ import useCurrencyInfo from "./hooks/useCurrencyInfo";
 import InputBox from "./components/InputBox.jsx";
 import OptionsBox from "./components/OptionsBox.jsx";
 import "./index.css";
+import icon from "../public/assets/swap.webp";
 
 function App() {
   const [from, setFrom] = useState("usd");
@@ -86,11 +87,7 @@ function App() {
                     className=" w-12 h-12 border-2 border-blue-600 rounded-full bg-white text-white px-2 py-2 "
                     onClick={swap}
                   >
-                    <img
-                      className="bg-transparent"
-                      src="./src/assets/swap.webp"
-                      alt=""
-                    />
+                    <img className="bg-transparent" src={icon} alt="" />
                   </button>
                 </div>
 
